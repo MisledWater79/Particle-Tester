@@ -1,0 +1,72 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  color: #1C222A;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 0.05em;
+  background-color: white;
+}
+
+.bar {
+  width: 15%;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+  background-color: transparent;
+  border-color: black;
+}
+
+.buttons-container {
+  height: 50px;
+}
+
+.dropdown {
+  background-color: #FFF;
+  min-width: 120px;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-top: 1px solid #000;
+}
+
+.material-select {
+  padding: 0;
+  margin: 0.2em;
+}
+
+.material-select:hover::before {
+  content: "> ";
+}
+
+.particles {
+  z-index: -999;
+  min-width: 0;
+}
+
+canvas {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid black;
+}
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
